@@ -14,7 +14,7 @@ function App() {
           </h1>
         </header>
         <nav>
-          <ListFull listOfOptions={['Starter','Main','Dessert','Baking']} contentChanger={contentChanger} />
+          <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} contentChanger={contentChanger} />
         </nav>
         <main>
           <ContentStructure content={selectedContent} />

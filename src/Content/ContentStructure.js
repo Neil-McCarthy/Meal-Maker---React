@@ -3,7 +3,8 @@ import Section from "../ExtraBits/Section";
 let heading,sectionPosition;
 let soupSections = ['soup 1','soup 2'];
 let spaghettiSections = ['spag 1','spag 2','spag 3','spag 4','spag 5'];
-let cakeSections = ['cake 1','cake 2','cake 3','cake 4']
+let cakeSections = ['cake 1','cake 2','cake 3','cake 4'];
+let drinksSections = ['pint 1'];
 let breadSections = ['bread 1','bread 2','bread 3'];
 let contentChosen;
 
@@ -19,6 +20,9 @@ const ContentStructure = (props) => {
     } else if (props.content === 'Dessert') {
         heading = 'Dessert';
         contentChosen = cakeSections;
+    } else if (props.content === 'Drinks') {
+        heading = 'Drinks';
+        contentChosen = drinksSections;
     } else if (props.content === 'Baking') {
         heading = 'Baking';
         contentChosen = breadSections;

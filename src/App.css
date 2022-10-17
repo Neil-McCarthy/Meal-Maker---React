@@ -47,9 +47,11 @@ main section {
 }
 .right {
   background-image: linear-gradient(to right, #e0c9ab , whitesmoke);
+  height: 25em;
 }
 .left {
   background-image: linear-gradient(to right, whitesmoke , #e0c9ab);
+  height: 25em;
 }
 main section:first-child h1,main section:first-child p,.left h1,.left p {
   grid-column: 1;
