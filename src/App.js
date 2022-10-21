@@ -11,15 +11,19 @@ function App() {
 
   async function fetchMealInfo() {
     setIsLoading(true);
-    const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/results.json');
+    const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
     const data = await response.json();
     //console.log(data);
     const transformedMealInfo = data.map(mealData => {
-      return {
-        id: mealData.episode_id,
-        title: mealData.title,
-        openingText: mealData.opening_crawl,
-        releaseDate: mealData.release_date
+      if (mealData.title === "Spaghetti Bolognese"){
+        return {
+          title: mealData.title,
+          ingrediants: mealData.ingrediants,
+          images: mealData.images,
+          steps: mealData.Steps,
+          seasoningMeat: mealData.Seasoning_the_Meat,
+          seasoningSauce: mealData.Seasoning_the_Sauce
+        }
       }
     })
     setMealContent(transformedMealInfo);
@@ -38,7 +42,7 @@ function App() {
         <main>
           <ContentStructure content={selectedContent} />
           <button onClick={fetchMealInfo}>Get info</button>
-          {!isLoading && mealContent.length > 0 && console.log(mealContent[0].title)}
+          {!isLoading && mealContent.length > 0 && console.log(mealContent)}
           {!isLoading && mealContent.length === 0 && console.log('no info')}
           {isLoading && console.log('loading')}
         </main>
