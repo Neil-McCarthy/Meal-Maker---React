@@ -1,122 +1,247 @@
 {
     "meals": [
         {
-            "title": "Spaghetti Bolognese", 
-            "images": ["one", "two", "three"],
-            "ingrediants": {
-                "beefMince": "500g",
-                "streakyBacon": "3 strips",
-                "whiteOnion": "1",
-                "redOnion": "1",
-                "redPepper": "1",
-                "greenPepper": "1",
-                "chestnutMushrooms": "4-6",
-                "garlicCloves": "3-5",
-                "kidneyBeans": "1 tin",
-                "bologneseSauce": "1 jar"
-            },
-            "seasoningTheMeat": {
-                "salt": "",
-                "pepper": "",
-                "smokedPaprika": "",
-                "cayenne": "",
-                "parsley": "",
-                "basil": "",
-                "sage": ""
-            },
-            "seasoningTheSauce": {
-                "salt": "",
-                "pepper": "",
-                "smokedPaprika": "",
-                "cayenne": "",
-                "parsley": "",
-                "basil": "",
-                "sage": ""
-            },
-            "steps": [
-                "This is step Wan",
-                "This is stAp Twwoooo",
-                "TREEEEEEEE"
-            ]
-        }, 
-        {
-            "title": "Chilli Con Carne", 
-            "images": ["bingo", "bango", "bongo"],
-            "ingrediants": {
-                "beefMince": "500g",
-                "streakyBacon": "3 strips",
-                "whiteOnion": "1",
-                "redOnion": "1",
-                "redPepper": "1",
-                "greenPepper": "1",
-                "garlicCloves": "3-5",
-                "kidneyBeans": "1 tin",
-                "chilliSauce": "1 jar"
-            },
-            "seasoningTheMeat": {
-                "salt": "",
-                "pepper": "",
-                "smokedPaprika": "",
-                "chilliPowder": "",
-                "cayenne": "",
-                "parsley": "",
-                "basil": "",
-                "sage": ""
-            },
-            "seasoningTheSauce": {
-                "salt": "",
-                "pepper": "",
-                "smokedPaprika": "",
-                "chilliPowder": "",
-                "cayenne": "",
-                "parsley": "",
-                "basil": "",
-                "sage": ""
-            },
-            "steps": [
-                "This is step Wan",
-                "This is stAp Twwoooo",
-                "TREEEEEEEE"
-            ]
-        },
-        {
-            "title": "Curry", 
-            "images": ["bang", "ka", "zooey"],
-            "ingrediants": {
-                "chicken": "500g",
-                "whiteOnion": "1",
-                "redOnion": "1",
-                "redPepper": "1",
-                "yellowPepper": "1",
-                "garlicCloves": "3-5",
-                "kidneyBeans": "1 tin",
-                "currySauce": "1 jar"
-            },
-            "seasoningTheMeat": {
-                "salt": "",
-                "pepper": "",
-                "smokedPaprika": "",
-                "tumeric": "",
-                "cayenne": "",
-                "parsley": "",
-                "basil": "",
-                "sage": ""
-            },
-            "seasoningTheSauce": {
-                "salt": "",
-                "pepper": "",
-                "smokedPaprika": "",
-                "tumeric": "",
-                "cayenne": "",
-                "parsley": "",
-                "basil": "",
-                "sage": ""
-            },
-            "steps": [
-                "that is step Wan",
-                "that is stAp Twwoooo",
-                "TRWWWWWWEEEEEEEE"
+            "mains": [
+                {
+                    "title": "Spaghetti Bolognese", 
+                    "images": ["one", "two", "three"],
+                    "ingrediants": {
+                        "beefMince": "500g",
+                        "streakyBacon": "3 strips",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "greenPepper": "1",
+                        "chestnutMushrooms": "4-6",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "bologneseSauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Chilli Con Carne", 
+                    "images": ["bingo", "bango", "bongo"],
+                    "ingrediants": {
+                        "beefMince": "500g",
+                        "streakyBacon": "3 strips",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "greenPepper": "1",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "chilliSauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "chilliPowder": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "chilliPowder": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Curry", 
+                    "images": ["bang", "ka", "zooey"],
+                    "ingrediants": {
+                        "chicken": "500g",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "yellowPepper": "1",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "currySauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "tumeric": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "tumeric": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "that is step Wan",
+                        "that is stAp Twwoooo",
+                        "TRWWWWWWEEEEEEEE"
+                    ]
+                }
+            ],
+            "starters": [
+                {
+                    "title": "Spaghetti Bolognese", 
+                    "images": ["one", "two", "three"],
+                    "ingrediants": {
+                        "beefMince": "500g",
+                        "streakyBacon": "3 strips",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "greenPepper": "1",
+                        "chestnutMushrooms": "4-6",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "bologneseSauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Chilli Con Carne", 
+                    "images": ["bingo", "bango", "bongo"],
+                    "ingrediants": {
+                        "beefMince": "500g",
+                        "streakyBacon": "3 strips",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "greenPepper": "1",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "chilliSauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "chilliPowder": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "chilliPowder": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Curry", 
+                    "images": ["bang", "ka", "zooey"],
+                    "ingrediants": {
+                        "chicken": "500g",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "yellowPepper": "1",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "currySauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "tumeric": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "tumeric": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "that is step Wan",
+                        "that is stAp Twwoooo",
+                        "TRWWWWWWEEEEEEEE"
+                    ]
+                }
             ]
         }
+
     ]
 }
