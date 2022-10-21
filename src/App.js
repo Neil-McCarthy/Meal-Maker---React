@@ -8,26 +8,26 @@ function App() {
   const [selectedContent, contentChanger] = useState('Starter');
   const [mealContent, setMealContent] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [mealSelected, setMealSelected] = useState(0);
 
-  async function fetchMealInfo() {
+  async function fetchMealInfo(mealNumber) {
     setIsLoading(true);
     const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
     const data = await response.json();
     //console.log(data);
     const transformedMealInfo = data.map(mealData => {
-      if (mealData.title === "Spaghetti Bolognese"){
-        return {
-          title: mealData.title,
-          ingrediants: mealData.ingrediants,
-          images: mealData.images,
-          steps: mealData.Steps,
-          seasoningMeat: mealData.Seasoning_the_Meat,
-          seasoningSauce: mealData.Seasoning_the_Sauce
-        }
+      return {
+        title: mealData.title,
+        ingrediants: mealData.ingrediants,
+        images: mealData.images,
+        steps: mealData.Steps,
+        seasoningMeat: mealData.SeasoningTheMeat,
+        seasoningSauce: mealData.Seasoning_the_Sauce
       }
     })
     setMealContent(transformedMealInfo);
     setIsLoading(false);
+    setMealSelected(mealNumber)
   }
   return (
     <React.Fragment>
@@ -41,8 +41,10 @@ function App() {
         </nav>
         <main>
           <ContentStructure content={selectedContent} />
-          <button onClick={fetchMealInfo}>Get info</button>
-          {!isLoading && mealContent.length > 0 && console.log(mealContent)}
+          <button onClick={() => fetchMealInfo(0)}>Get info</button>
+          <button onClick={() => fetchMealInfo(1)}>Get info</button>
+          <button onClick={() => fetchMealInfo(2)}>Get info</button>
+          {!isLoading && mealContent.length > 0 && console.log(mealContent[mealSelected])}
           {!isLoading && mealContent.length === 0 && console.log('no info')}
           {isLoading && console.log('loading')}
         </main>
