@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
 // let sectionPosition;
-let catagoryInfo;
-const displayAllOptions = (props) => {
+const DisplayAllOptions = (props) => {
+    const [output, setOutput] = useState("ello guv");
+
     if (props.mealInformation.length > 0) {
-        if (props.catagory === 0) {
-            catagoryInfo = props.mealInformation.mains;
+        for (let specificMeal = 0;specificMeal < props.mealInformation.length;specificMeal++) {
         }
-        for (let specificMeal = 0;specificMeal < catagoryInfo.length;specificMeal++) {
-            console.timeLog(catagoryInfo[specificMeal]);
-        }
+    }
+
+    function changeContent() {
+        let placeHolder = props.mealInformation;
+        console.log(placeHolder);
+        //setOutput(placeHolder);
     }
     // let totalSections = [];
     // for (let index=0;index<10;index++) {
@@ -23,9 +26,12 @@ const displayAllOptions = (props) => {
 
     return (
         <React.Fragment>
-            <p>ello</p>
+            <p>{output}</p>
+            <button onClick={() => changeContent()}>
+                press me!
+            </button>
         </React.Fragment>
     )
 }
 
-export default displayAllOptions;
+export default DisplayAllOptions;

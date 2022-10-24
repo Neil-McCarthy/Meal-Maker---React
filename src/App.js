@@ -13,25 +13,24 @@ function App() {
   const [mealSelected, setMealSelected] = useState(0);
 
   let mealsInfo;
-  
+
   async function fetchMealInfo(mealNumber) {
     setIsLoading(true);
     const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
     const data = await response.json();
     //console.log(data);
     const transformedMealInfo = data.map(mealData => {
-      console.log(mealData);
       mealsInfo = mealData.mains;
-      console.log(mealsInfo);
       return {
-        title: mealsInfo[mealNumber].title,
-        ingrediants: mealsInfo[mealNumber].ingrediants,
-        images: mealsInfo[mealNumber].images,
-        steps: mealsInfo[mealNumber].Steps,
-        seasoningMeat: mealsInfo[mealNumber].SeasoningTheMeat,
-        seasoningSauce: mealsInfo[mealNumber].Seasoning_the_Sauce
+        title: mealsInfo.title,
+        ingrediants: mealsInfo.ingrediants,
+        images: mealsInfo.images,
+        steps: mealsInfo.Steps,
+        seasoningMeat: mealsInfo.SeasoningTheMeat,
+        seasoningSauce: mealsInfo.Seasoning_the_Sauce
       }
     })
+    //console.log(mealsInfo);
     setMealContent(mealsInfo);
     setIsLoading(false);
     setCatagorySelected(mealNumber)
@@ -54,7 +53,7 @@ function App() {
           <button onClick={() => fetchMealInfo(0)}>Get info</button>
           <button onClick={() => fetchMealInfo(1)}>Get info</button>
           <button onClick={() => fetchMealInfo(2)}>Get info</button>
-          {!isLoading && mealContent.length > 0 && console.log(mealContent)}
+          {!isLoading && mealContent.length > 0}
           {!isLoading && mealContent.length === 0 && console.log('no info')}
           {isLoading && console.log('loading')}
         </main>
