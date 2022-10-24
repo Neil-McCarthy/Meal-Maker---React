@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import ContentStructure from './Content/ContentStructure';
-import DisplayAllOptions from './Content/DisplayAllOptions';
+import DisplayAllOptions from './Content/Main/DisplayAllOptions';
 import PairingList from './Content/PairingList';
 import ListFull from './ExtraBits/ListFull';
 import './App.css';
+
+let displayedContent;
 
 function App() {
   const [selectedContent, contentChanger] = useState('Starter');
@@ -11,6 +13,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [catagorySelected, setCatagorySelected] = useState(0);
   const [mealSelected, setMealSelected] = useState(0);
+  const [contentToShow, setContentToShow] = useState("display all options");
 
   let mealsInfo;
 
@@ -26,7 +29,11 @@ function App() {
       } else if (mealNumber === 1) {
         mealsInfo = mealData.mains;
       } else if (mealNumber === 2) {
-        mealsInfo = mealData.Dessert;
+        mealsInfo = mealData.desserts;
+      } else if (mealNumber === 3) {
+        mealsInfo = mealData.drinks;
+      } else if (mealNumber === 4) {
+        mealsInfo = mealData.baking;
       }
       // return {
       //   title: mealsInfo.title,
@@ -43,7 +50,11 @@ function App() {
     setCatagorySelected(mealNumber)
   }
 
-  let displayedContent = <DisplayAllOptions catagory={catagorySelected} mealInformation={mealContent} />
+  if (contentToShow === "display all options") {
+    displayedContent = <DisplayAllOptions catagory={catagorySelected} mealInformation={mealContent} />
+  } else if (contentToShow === "full meal") {
+    displayedContent = <p>hello</p>;
+  }
   return (
     <React.Fragment>
         <header className="App-header">
@@ -52,14 +63,14 @@ function App() {
           </h1>
         </header>
         <nav>
-          <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} functionCall={fetchMealInfo} />
+          <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} callFetchMealInfo={fetchMealInfo} callSetContentToShow={setContentToShow} />
         </nav>
         <main>
           {/* <ContentStructure content={selectedContent} /> */}
           {displayedContent}
-          {/* <button onClick={() => fetchMealInfo(0)}>Get info</button>
+          <button onClick={() => setContentToShow("full meal")}>Get info</button>
           <button onClick={() => fetchMealInfo(1)}>Get info</button>
-          <button onClick={() => fetchMealInfo(2)}>Get info</button> */}
+          <button onClick={() => fetchMealInfo(2)}>Get info</button>
           {!isLoading && mealContent.length > 0}
           {!isLoading && mealContent.length === 0 && console.log('no info')}
           {isLoading && console.log('loading')}
