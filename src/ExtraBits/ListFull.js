@@ -4,7 +4,7 @@ const ListFull = (props) => {
     let listContents = [];
 
     for (let index = 0;index < props.listOfOptions.length;index++) {
-        listContents.push(<li key={index} onClick={() => props.contentChanger(props.listOfOptions[index])}>{props.listOfOptions[index]}</li>);
+        listContents.push(<li key={index} onClick={() => props.functionCall(index)}>{props.listOfOptions[index]}</li>);
     }
 
     return <ul>{listContents}</ul>;

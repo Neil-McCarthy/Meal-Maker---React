@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../ExtraBits/Section";
+import Section from "./Main/Section";
 
 const PairingList = () => {
     return (

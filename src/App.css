@@ -13,7 +13,7 @@
 header {
   background: red;
   grid-column: 1/5;
-  height: 50em;
+  height: 56.5em;
 }
 
 /* NAV */
@@ -40,10 +40,11 @@ main {
 }
 main section {
   height: 20em;
-  grid-column: 1/3;
-  display:grid;
+  /* display:grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: auto;
+  grid-auto-rows: auto; */
+}
+.display {
 }
 .right {
   background-image: linear-gradient(to right, #e0c9ab , whitesmoke);

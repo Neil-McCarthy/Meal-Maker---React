@@ -20,17 +20,24 @@ function App() {
     const data = await response.json();
     //console.log(data);
     const transformedMealInfo = data.map(mealData => {
-      mealsInfo = mealData.mains;
-      return {
-        title: mealsInfo.title,
-        ingrediants: mealsInfo.ingrediants,
-        images: mealsInfo.images,
-        steps: mealsInfo.Steps,
-        seasoningMeat: mealsInfo.SeasoningTheMeat,
-        seasoningSauce: mealsInfo.Seasoning_the_Sauce
+      if (mealNumber === 0) {
+        mealsInfo = mealData.starters;
+        // console.log(mealsInfo);
+      } else if (mealNumber === 1) {
+        mealsInfo = mealData.mains;
+      } else if (mealNumber === 2) {
+        mealsInfo = mealData.Dessert;
       }
+      // return {
+      //   title: mealsInfo.title,
+      //   ingrediants: mealsInfo.ingrediants,
+      //   images: mealsInfo.images,
+      //   steps: mealsInfo.Steps,
+      //   seasoningMeat: mealsInfo.SeasoningTheMeat,
+      //   seasoningSauce: mealsInfo.Seasoning_the_Sauce
+      // }
     })
-    //console.log(mealsInfo);
+    // console.log(mealsInfo);
     setMealContent(mealsInfo);
     setIsLoading(false);
     setCatagorySelected(mealNumber)
@@ -45,14 +52,14 @@ function App() {
           </h1>
         </header>
         <nav>
-          <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} contentChanger={contentChanger} />
+          <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} functionCall={fetchMealInfo} />
         </nav>
         <main>
           {/* <ContentStructure content={selectedContent} /> */}
           {displayedContent}
-          <button onClick={() => fetchMealInfo(0)}>Get info</button>
+          {/* <button onClick={() => fetchMealInfo(0)}>Get info</button>
           <button onClick={() => fetchMealInfo(1)}>Get info</button>
-          <button onClick={() => fetchMealInfo(2)}>Get info</button>
+          <button onClick={() => fetchMealInfo(2)}>Get info</button> */}
           {!isLoading && mealContent.length > 0}
           {!isLoading && mealContent.length === 0 && console.log('no info')}
           {isLoading && console.log('loading')}

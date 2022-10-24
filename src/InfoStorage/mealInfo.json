@@ -1,9 +1,10 @@
 {
     "meals": [
         {
-            "mains": [
+            "starters": [
                 {
-                    "title": "Spaghetti Bolognese", 
+                    "title": "Vegtable Soup", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
                     "ingrediants": {
                         "beefMince": "500g",
@@ -42,7 +43,8 @@
                     ]
                 },
                 {
-                    "title": "Chilli Con Carne", 
+                    "title": "Sea Food Chowder", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
                     "ingrediants": {
                         "beefMince": "500g",
@@ -82,7 +84,8 @@
                     ]
                 },
                 {
-                    "title": "Curry", 
+                    "title": "Chicken Wings", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
                     "ingrediants": {
                         "chicken": "500g",
@@ -121,9 +124,10 @@
                     ]
                 }
             ],
-            "starters": [
+            "mains": [
                 {
                     "title": "Spaghetti Bolognese", 
+                    "briefDescription": "A beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
                     "ingrediants": {
                         "beefMince": "500g",
@@ -163,6 +167,7 @@
                 },
                 {
                     "title": "Chilli Con Carne", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
                     "ingrediants": {
                         "beefMince": "500g",
@@ -202,7 +207,131 @@
                     ]
                 },
                 {
-                    "title": "Curry", 
+                    "title": "Curry",
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "images": ["bang", "ka", "zooey"],
+                    "ingrediants": {
+                        "chicken": "500g",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "yellowPepper": "1",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "currySauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "tumeric": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "tumeric": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "that is step Wan",
+                        "that is stAp Twwoooo",
+                        "TRWWWWWWEEEEEEEE"
+                    ]
+                }
+            ],
+            "Dessert": [
+                {
+                    "title": "Chocolate Cake", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "images": ["one", "two", "three"],
+                    "ingrediants": {
+                        "beefMince": "500g",
+                        "streakyBacon": "3 strips",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "greenPepper": "1",
+                        "chestnutMushrooms": "4-6",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "bologneseSauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Brownies", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "images": ["bingo", "bango", "bongo"],
+                    "ingrediants": {
+                        "beefMince": "500g",
+                        "streakyBacon": "3 strips",
+                        "whiteOnion": "1",
+                        "redOnion": "1",
+                        "redPepper": "1",
+                        "greenPepper": "1",
+                        "garlicCloves": "3-5",
+                        "kidneyBeans": "1 tin",
+                        "chilliSauce": "1 jar"
+                    },
+                    "seasoningTheMeat": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "chilliPowder": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "seasoningTheSauce": {
+                        "salt": "",
+                        "pepper": "",
+                        "smokedPaprika": "",
+                        "chilliPowder": "",
+                        "cayenne": "",
+                        "parsley": "",
+                        "basil": "",
+                        "sage": ""
+                    },
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Ice Cream", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
                     "ingrediants": {
                         "chicken": "500g",

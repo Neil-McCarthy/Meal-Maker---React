@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "../ExtraBits/Section";
+import Section from "./Main/Section";
 let heading,sectionPosition;
 let soupSections = ['soup 1','soup 2'];
 let spaghettiSections = ['spag 1','spag 2','spag 3','spag 4','spag 5'];
