@@ -4,6 +4,7 @@ import DisplayAllOptions from './Content/Main/DisplayAllOptions';
 import PairingList from './Content/PairingList';
 import ListFull from './ExtraBits/ListFull';
 import './App.css';
+import FullMeal from './Content/Main/FullMeal';
 
 let displayedContent;
 
@@ -51,9 +52,9 @@ function App() {
   }
 
   if (contentToShow === "display all options") {
-    displayedContent = <DisplayAllOptions catagory={catagorySelected} mealInformation={mealContent} />
+    displayedContent = <DisplayAllOptions mealInformation={mealContent} chooseMeal={setMealSelected} changeDisplay={setContentToShow} />
   } else if (contentToShow === "full meal") {
-    displayedContent = <p>hello</p>;
+    displayedContent = <FullMeal mealInformation={mealContent} specificMeal={mealSelected} />;
   }
   return (
     <React.Fragment>
@@ -68,9 +69,6 @@ function App() {
         <main>
           {/* <ContentStructure content={selectedContent} /> */}
           {displayedContent}
-          <button onClick={() => setContentToShow("full meal")}>Get info</button>
-          <button onClick={() => fetchMealInfo(1)}>Get info</button>
-          <button onClick={() => fetchMealInfo(2)}>Get info</button>
           {!isLoading && mealContent.length > 0}
           {!isLoading && mealContent.length === 0 && console.log('no info')}
           {isLoading && console.log('loading')}
