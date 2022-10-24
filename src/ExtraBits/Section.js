@@ -3,7 +3,7 @@ import React from "react";
 
 const Section = (props) => {
     return(
-        <section class={props.sectionPosition}>
+        <section className={props.sectionPosition}>
             <h1>
                 {props.heading}
             </h1>
