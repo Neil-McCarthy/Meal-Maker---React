@@ -20,7 +20,7 @@ const FullMeal = (props) => {
                 <h1>
                     Step-by-Step
                 </h1>
-                <ul>
+                <ul id="stepsList">
                     {displaySections}
                 </ul>
             </section>

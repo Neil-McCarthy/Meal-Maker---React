@@ -181,6 +181,7 @@
                 {
                     "title": "Spaghetti Bolognese", 
                     "briefDescription": "A beautiful dish of spaghetti",
+                    "fullDescription": "",
                     "images": ["one", "two", "three"],
                     "ingredients": {
                         "ingredient1": {
@@ -216,24 +217,33 @@
                             "amount": "1 tin"
                         },
                         "ingredient9": {
-                            "name": "Chilli Sauce",
+                            "name": "Bolognese Sauce",
                             "amount": "1 jar"
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne Chilli Powder",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
-                        "Step one",
-                        "2",
-                        "trois"
+                        "Add a small drop of olive oil to your oven ready pot and let it sit on a medium heat",
+                        "Season your mince with a sprinkling of each of the seasonings above and just a dash of Cayenne.\nMix this thorougly so to spread the seasoning around and to break the mince up fully then add this to your pot once the oil reaches it's medium heat.\nPlace the lid on the pot and let it cook slowly making sure to stir it every few minutes so it doesn't stick.",
+                        "On a seperate pan place a decent plop of olive oil and bring to a high heat.\nSlice you bacon vertically down the centre, layer the two halves on top of each other then slice thin strips horizontally.\nPlace your small strips of bacon on the pan and stir regularly until crispy.",
+                        "Remove your bacon from the pan and take your pan off the heat. Place on a thin sheet of kitchen paper to remove any excess oil then put your bacon in the pot with your mince and stir before putting the lid back on the pot.",
+                        "Add another plop of oil to the pan you cooked your bacon in and bring it back to a high heat. Place your finely chopped onions, peppers and mushrooms and stir regularly.\nFeel free to add a light seasoning to your taste. Give these a light fry for around 5-10 minutes.",
+                        "Once your veg is ready pour it all directly into the pot and stir.",
+                        "Open your tin of kidney beans and drain the liquid inside. Pour directly into your pot and stir.",
+                        "Open your tin of chopped tomatoes. Pour directly into your pot and stir.",
+                        "Open you jar of pasta sauce. Pour directly into your pot and stir.",
+                        "Crush your garlice into a paste and add it to the pot and stir.",
+                        "Add another layer of seasoning, give it another stir to make sure it's all mixed.",
+                        "Place your pot inside a preheated oven at 180℃ for around an hour, stirring the pot every 20 minutes or so."
                     ]
                 },
                 {
