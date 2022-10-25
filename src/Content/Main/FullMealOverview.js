@@ -14,7 +14,7 @@ const FullMealOverview = (props) => {
         ingredientsContent.push(<tr><td>{Object.values(props.mealInfo.ingredients)[ingredientsData].name}</td><td>{Object.values(props.mealInfo.ingredients)[ingredientsData].amount}</td></tr>);
     }
     return (
-        <section>
+        <section className="overview">
             <h1>
                 {props.mealInfo.title}
             </h1>
@@ -25,6 +25,9 @@ const FullMealOverview = (props) => {
                 <tr>
                     <th>
                         Ingredients
+                    </th>
+                    <th>
+                        Amounts
                     </th>
                 </tr>
                 {ingredientsContent}

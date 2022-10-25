@@ -9,13 +9,21 @@ const FullMeal = (props) => {
     const stepsList = props.mealInformation[props.specificMeal].steps;
     //console.log(props.mealInformation[props.specificMeal].ingredients)
     for(let singleStep = 0;singleStep < stepsList.length;singleStep++){
-        displaySections.push(<ExpandedSections step={stepsList[singleStep]} key={singleStep} />)
+        // displaySections.push(<ExpandedSections step={stepsList[singleStep]} key={singleStep} />)
+        displaySections.push(<li key={singleStep}>- {stepsList[singleStep]}</li>)
     }
 
     return (
         <React.Fragment>
             <FullMealOverview mealInfo={props.mealInformation[props.specificMeal]} />
-            {displaySections}
+            <section>
+                <h1>
+                    Step-by-Step
+                </h1>
+                <ul>
+                    {displaySections}
+                </ul>
+            </section>
         </React.Fragment>
     )
 }

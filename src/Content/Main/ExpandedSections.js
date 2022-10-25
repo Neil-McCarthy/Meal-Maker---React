@@ -2,7 +2,7 @@ import React from "react";
 
 const ExpandedSections = (props) => {
     return (
-        <section>
+        <section className="expandedSection">
             <p>{props.step}</p>
         </section>
     )
