@@ -6,36 +6,54 @@
                     "title": "Vegtable Soup", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "chestnutMushrooms": "4-6",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "bologneseSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -46,37 +64,54 @@
                     "title": "Sea Food Chowder", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "chilliSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -87,36 +122,54 @@
                     "title": "Chicken Wings", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
-                    "ingrediants": {
-                        "chicken": "500g",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "yellowPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "currySauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "that is step Wan",
                         "that is stAp Twwoooo",
@@ -129,36 +182,54 @@
                     "title": "Spaghetti Bolognese", 
                     "briefDescription": "A beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "chestnutMushrooms": "4-6",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "bologneseSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "Step one",
                         "2",
@@ -169,37 +240,54 @@
                     "title": "Chilli Con Carne", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "chilliSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "une",
                         "deus",
@@ -210,36 +298,54 @@
                     "title": "Curry",
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
-                    "ingrediants": {
-                        "chicken": "500g",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "yellowPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "currySauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "that is step Wan",
                         "that is stAp Twwoooo",
@@ -252,36 +358,54 @@
                     "title": "Chocolate Cake", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "chestnutMushrooms": "4-6",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "bologneseSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -292,37 +416,54 @@
                     "title": "Brownies", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "chilliSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -333,36 +474,54 @@
                     "title": "Ice Cream", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
-                    "ingrediants": {
-                        "chicken": "500g",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "yellowPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "currySauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "that is step Wan",
                         "that is stAp Twwoooo",
@@ -375,36 +534,54 @@
                     "title": "Beer", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "chestnutMushrooms": "4-6",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "bologneseSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -415,37 +592,54 @@
                     "title": "Sex on the Beach", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "chilliSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -456,36 +650,54 @@
                     "title": "Whiskey Sour", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
-                    "ingrediants": {
-                        "chicken": "500g",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "yellowPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "currySauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "that is step Wan",
                         "that is stAp Twwoooo",
@@ -498,36 +710,54 @@
                     "title": "Sour Dough", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["one", "two", "three"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "chestnutMushrooms": "4-6",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "bologneseSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -538,37 +768,54 @@
                     "title": "Scones", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bingo", "bango", "bongo"],
-                    "ingrediants": {
-                        "beefMince": "500g",
-                        "streakyBacon": "3 strips",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "greenPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "chilliSauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "chilliPowder": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "This is step Wan",
                         "This is stAp Twwoooo",
@@ -579,36 +826,54 @@
                     "title": "Chocolate Chip Cookies", 
                     "briefDescription": "not a beautiful dish of spaghetti",
                     "images": ["bang", "ka", "zooey"],
-                    "ingrediants": {
-                        "chicken": "500g",
-                        "whiteOnion": "1",
-                        "redOnion": "1",
-                        "redPepper": "1",
-                        "yellowPepper": "1",
-                        "garlicCloves": "3-5",
-                        "kidneyBeans": "1 tin",
-                        "currySauce": "1 jar"
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
                     },
-                    "seasoningTheMeat": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
-                    "seasoningTheSauce": {
-                        "salt": "",
-                        "pepper": "",
-                        "smokedPaprika": "",
-                        "tumeric": "",
-                        "cayenne": "",
-                        "parsley": "",
-                        "basil": "",
-                        "sage": ""
-                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
                     "steps": [
                         "that is step Wan",
                         "that is stAp Twwoooo",

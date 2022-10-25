@@ -14,7 +14,7 @@ const FullMeal = (props) => {
 
     return (
         <React.Fragment>
-            <FullMealOverview heading={props.mealInformation[props.specificMeal].title} description={props.mealInformation[props.specificMeal].briefDescription}/>
+            <FullMealOverview mealInfo={props.mealInformation[props.specificMeal]} />
             {displaySections}
         </React.Fragment>
     )
