@@ -7,7 +7,7 @@ import './App.css';
 import FullMeal from './Content/Main/FullMeal';
 
 let displayedContent;
-let contentOnLoad = false;
+
 function App() {
   const [selectedContent, contentChanger] = useState('Starter');
   const [mealContent, setMealContent] = useState([]);
@@ -47,47 +47,29 @@ function App() {
     setIsLoading(true);
     const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
     const data = await response.json();
-    //console.log(data);
-    const transformedMealInfo = data.map(mealData => {
-      if (mealNumber === 0) {
-        mealsInfo = mealData.starters;
-        // console.log(mealsInfo);
-      } else if (mealNumber === 1) {
-        mealsInfo = mealData.mains;
-      } else if (mealNumber === 2) {
-        mealsInfo = mealData.desserts;
-      } else if (mealNumber === 3) {
-        mealsInfo = mealData.drinks;
-      } else if (mealNumber === 4) {
-        mealsInfo = mealData.baking;
-      }
-      // return {
-      //   title: mealsInfo.title,
-      //   ingrediants: mealsInfo.ingrediants,
-      //   images: mealsInfo.images,
-      //   steps: mealsInfo.Steps,
-      //   seasoningMeat: mealsInfo.SeasoningTheMeat,
-      //   seasoningSauce: mealsInfo.Seasoning_the_Sauce
-      // }
-    })
-    // console.log(mealsInfo);
+    mealsDictionary = data[0];
+    if (mealNumber === 0) {
+      mealsInfo = mealsDictionary.starters;
+    } else if (mealNumber === 1) {
+      mealsInfo = mealsDictionary.mains;
+    } else if (mealNumber === 2) {
+      mealsInfo = mealsDictionary.desserts;
+    } else if (mealNumber === 3) {
+      mealsInfo = mealsDictionary.drinks;
+    } else if (mealNumber === 4) {
+      mealsInfo = mealsDictionary.baking;
+    }
     setMealContent(mealsInfo);
     setIsLoading(false);
     setCatagorySelected(mealNumber);
   }
 
-  // console.log(contentOnLoad);
-  // if (contentOnLoad === false) {
-  //   fetchMealInfo(0);
-  //   contentOnLoad = true;
-  // }
   if (contentToShow === "display all options") {
     displayedContent = <DisplayAllOptions mealInformation={mealContent} chooseMeal={setMealSelected} changeDisplay={setContentToShow} />
   } else if (contentToShow === "full meal") {
     displayedContent = <FullMeal mealInformation={mealContent} specificMeal={mealSelected} />;
   }
 
-  // window.onload(() => {fetchMealInfo(0)});
   return (
     <React.Fragment>
         <header className="App-header">
