@@ -15,7 +15,7 @@ function App() {
   const [error, setError] = useState(null);
   const [catagorySelected, setCatagorySelected] = useState(0);
   const [mealSelected, setMealSelected] = useState(0);
-  const [contentToShow, setContentToShow] = useState("display all options");
+  const [contentToShow, setContentToShow] = useState("displayAllOptions");
 
   let mealsInfo;
   let mealsDictionary;
@@ -64,9 +64,9 @@ function App() {
     setCatagorySelected(mealNumber);
   }
 
-  if (contentToShow === "display all options") {
+  if (contentToShow === "displayAllOptions") {
     displayedContent = <DisplayAllOptions mealInformation={mealContent} chooseMeal={setMealSelected} changeDisplay={setContentToShow} />
-  } else if (contentToShow === "full meal") {
+  } else if (contentToShow === "fullMeal") {
     displayedContent = <FullMeal mealInformation={mealContent} specificMeal={mealSelected} />;
   }
 
@@ -80,7 +80,7 @@ function App() {
         <nav>
           <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} callFetchMealInfo={fetchMealInfo} callSetContentToShow={setContentToShow} />
         </nav>
-        <main>
+        <main className={contentToShow}>
           {/* <ContentStructure content={selectedContent} /> */}
           {displayedContent}
           {!isLoading && mealContent.length > 0}
