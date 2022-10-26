@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useCallback, useEffect} from 'react';
 import ContentStructure from './Content/ContentStructure';
 import DisplayAllOptions from './Content/Main/DisplayAllOptions';
 import PairingList from './Content/PairingList';
@@ -7,16 +7,41 @@ import './App.css';
 import FullMeal from './Content/Main/FullMeal';
 
 let displayedContent;
-
+let contentOnLoad = false;
 function App() {
   const [selectedContent, contentChanger] = useState('Starter');
   const [mealContent, setMealContent] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
   const [catagorySelected, setCatagorySelected] = useState(0);
   const [mealSelected, setMealSelected] = useState(0);
   const [contentToShow, setContentToShow] = useState("display all options");
 
   let mealsInfo;
+  let mealsDictionary;
+
+  const fetchMealInfoOnLoad = useCallback(async() => {
+    setIsLoading(true);
+    try {
+      const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
+      if (!response.ok) {
+        setError("Something went wrong");
+      }
+      const data = await response.json();
+      mealsDictionary = data[0];
+      mealsInfo = mealsDictionary.starters;
+      setMealContent(mealsInfo);
+      setIsLoading(false);
+      setCatagorySelected(0);
+    } catch (error) {
+      setError("Something went wrong");
+    }
+
+  });
+
+  useEffect(() => {
+    fetchMealInfoOnLoad();
+  }, []);
 
   async function fetchMealInfo(mealNumber) {
     setIsLoading(true);
@@ -48,14 +73,21 @@ function App() {
     // console.log(mealsInfo);
     setMealContent(mealsInfo);
     setIsLoading(false);
-    setCatagorySelected(mealNumber)
+    setCatagorySelected(mealNumber);
   }
 
+  // console.log(contentOnLoad);
+  // if (contentOnLoad === false) {
+  //   fetchMealInfo(0);
+  //   contentOnLoad = true;
+  // }
   if (contentToShow === "display all options") {
     displayedContent = <DisplayAllOptions mealInformation={mealContent} chooseMeal={setMealSelected} changeDisplay={setContentToShow} />
   } else if (contentToShow === "full meal") {
     displayedContent = <FullMeal mealInformation={mealContent} specificMeal={mealSelected} />;
   }
+
+  // window.onload(() => {fetchMealInfo(0)});
   return (
     <React.Fragment>
         <header className="App-header">
@@ -86,5 +118,6 @@ function App() {
     </React.Fragment>
   );
 }
+
 
 export default App;
