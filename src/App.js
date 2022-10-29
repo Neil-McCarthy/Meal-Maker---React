@@ -91,11 +91,32 @@ function App() {
           <PairingList />
         </aside>
         <footer>
-          <small>
-            <p>
-              waa waa waa footer
-            </p>
-          </small>
+                <section>
+                    <ul>
+                        <li><a href='https://www.facebook.com/'><img src={require('./images/icons/facebook.png')} /></a></li>
+                        <li><a href='https://www.instagram.com/'><img src={require('./images/icons/instagram.png')} /></a></li>
+                        <li><a href='https://www.github.com/'><img src={require('./images/icons/github.png')} /></a></li>
+                        <li><a href='https://www.linkedin.com/'><img src={require('./images/icons/linkedin.png')} /></a></li>
+                    </ul>
+                </section>
+            <section>
+                <p>
+                    A Neil McCarthy Website
+                </p>
+            </section>
+            <section>
+                <p>
+                    Phone: 123456789<br/>
+                    Email: email.email@email.email
+                </p>
+            </section>
+            <section>
+                <small>
+                    <p>
+                        This website was made as a template and should not be considered a genuine site and/or business. legal stuff legal stuff legal stuff legal stuff legal stuff legal stuff legal stuff legal stuff
+                    </p>
+                </small>
+            </section>
         </footer>
     </React.Fragment>
   );
