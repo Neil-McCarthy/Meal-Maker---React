@@ -48,17 +48,30 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto;
 }
-main section {
+/* main section {
   /* height: 20em; */
   /* display:grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto; */
-  margin-top:5em;
-}
+  /* margin-top:5em; */
 /* <<<GENERAL */
 /* DISPLAY ALL OPTIONS>>> */
 .displayAllOptions section{
   height:20em;
+  display: grid;
+}
+.displayAllOptions div{
+  overflow: hidden;
+}
+.displayAllOptions img{
+  width:100%;
+  height: auto;
+  transition:.5s;
+  grid-row: 3/4;
+}
+.displayAllOptions img:hover{
+  transform: scale(1.2);
+  filter: blur(.1em);
 }
 /* <<<DISPLAY ALL OPTIONS */
 /* FULL MEAL>>> */
@@ -100,6 +113,16 @@ main section {
 }
 #stepsList li{
   margin-top: 1em;
+}
+#fullMealImages{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#fullMealImages img{
+  display: block;
+  width:90%;
+  height:auto;
+  margin:1em auto;
 }
 /* <<<FULL MEAL */
 /* <<<MAIN */

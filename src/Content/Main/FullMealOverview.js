@@ -38,9 +38,6 @@ const FullMealOverview = (props) => {
                 </tr>
                 {seasoningContent}
             </table>
-            <img src={require(`../../images/mains/Curry/${props.mealInfo.images[0]}`)} />
-            <img src={require(`../../images/mains/Curry/${props.mealInfo.images[1]}`)} />
-            <img src={require(`../../images/mains/Curry/${props.mealInfo.images[2]}`)} />
         </section>
     )
 }

@@ -24,6 +24,11 @@ const FullMeal = (props) => {
                     {displaySections}
                 </ul>
             </section>
+            <section id="fullMealImages">
+                <img src={require(`../../images/mains/Curry/${props.mealInformation[props.specificMeal].images[0]}`)} />
+                <img src={require(`../../images/mains/Curry/${props.mealInformation[props.specificMeal].images[1]}`)} />
+                <img src={require(`../../images/mains/Curry/${props.mealInformation[props.specificMeal].images[2]}`)} />
+            </section>
         </React.Fragment>
     )
 }
