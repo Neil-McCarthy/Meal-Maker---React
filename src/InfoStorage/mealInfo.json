@@ -5,7 +5,8 @@
                 {
                     "title": "Vegtable Soup", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["one", "two", "three"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -63,7 +64,8 @@
                 {
                     "title": "Sea Food Chowder", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bingo", "bango", "bongo"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -121,7 +123,8 @@
                 {
                     "title": "Chicken Wings", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bang", "ka", "zooey"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -181,8 +184,8 @@
                 {
                     "title": "Spaghetti Bolognese", 
                     "briefDescription": "A beautiful dish of spaghetti",
-                    "fullDescription": "",
-                    "images": ["one", "two", "three"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -249,7 +252,8 @@
                 {
                     "title": "Chilli Con Carne", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bingo", "bango", "bongo"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -306,12 +310,13 @@
                 },
                 {
                     "title": "Curry",
-                    "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bang", "ka", "zooey"],
+                    "briefDescription": "A flavourful, aromatic dish that can be spiced to suit any palate",
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
-                            "name": "Minced Beef",
-                            "amount": "500g"
+                            "name": "Chicken Fillets",
+                            "amount": "3 medium"
                         },
                         "ingredient2": {
                             "name": "Streaky Bacon",
@@ -330,7 +335,7 @@
                             "amount": "1"
                         },
                         "ingredient6": {
-                            "name": "Green Pepper",
+                            "name": "Yellow Pepper",
                             "amount": "1"
                         },
                         "ingredient7": {
@@ -342,7 +347,7 @@
                             "amount": "1 tin"
                         },
                         "ingredient9": {
-                            "name": "Chilli Sauce",
+                            "name": "Curry Sauce",
                             "amount": "1 jar"
                         }
                     },
@@ -352,14 +357,29 @@
                         "smokedPaprika",
                         "chilliPowder",
                         "cayenne",
+                        "tumeric",
+                        "cajun",
                         "parsley",
                         "basil",
                         "sage"
                     ],
                     "steps": [
-                        "that is step Wan",
-                        "that is stAp Twwoooo",
-                        "TRWWWWWWEEEEEEEE"
+                        "Slice your chicken fillets vertically down their centre then slice those halves horizontally every half inch, then place your chopped chicken in a mixing bowl",
+                        "Slice your bacon vertically down their centre, place these halves on top of each other then slice horizontally every quarter inch, then add these bacon bits to your mixing bowl",
+                        "Add a sprinkling of each of your seasonings as well as a drop of olive oil to your bowl and mix thoroughly so that the seasoning is spread evenly",
+                        "Add a drop of oil to your pot and place your pot on a medium to high heat",
+                        "Pour the contents of your mixing bowl into your pot once it's at heat and stir every few minutes",
+                        "Add your kidney beans and diced onions and peppers to your pot once your chicken is cooked the whole way through and looks tender",
+                        "Stir regularly until onions and peppers are soft",
+                        "Add a curry sauce of your choosing to the pot and stir",
+                        "If the curry is in need of some more body add a quarter cup of water to the jar of curry, place the lid back on and shake then add this to the pot",
+                        "Add another round of your seasonings and stir",
+                        "Place the lip on top of your pot and place on a low heat and let sit for around an hour, stirring every 15 minutes",
+                        "Rinse your rice under cold water 15 minutes before the curry is ready, season with salt and pepper and place in a pot of cold water and place a lid on your pot",
+                        "Heat your rice and maximum heat until the water is at a full boil",
+                        "Take your rice off the heat then place over a low heat for 8-12 minutes, removing it from the heat whenever it starts to boild over. Do not remove the lid",
+                        "Strain your rice and plate up",
+                        "Add 3 or 4 spoons of curry on top of your rice and enjoy!"
                     ]
                 }
             ],
@@ -367,7 +387,8 @@
                 {
                     "title": "Chocolate Cake", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["one", "two", "three"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -425,7 +446,8 @@
                 {
                     "title": "Brownies", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bingo", "bango", "bongo"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -483,7 +505,8 @@
                 {
                     "title": "Ice Cream", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bang", "ka", "zooey"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -543,7 +566,8 @@
                 {
                     "title": "Beer", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["one", "two", "three"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -601,7 +625,8 @@
                 {
                     "title": "Sex on the Beach", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bingo", "bango", "bongo"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -659,7 +684,8 @@
                 {
                     "title": "Whiskey Sour", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bang", "ka", "zooey"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -719,7 +745,8 @@
                 {
                     "title": "Sour Dough", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["one", "two", "three"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -777,7 +804,8 @@
                 {
                     "title": "Scones", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bingo", "bango", "bongo"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
@@ -835,7 +863,8 @@
                 {
                     "title": "Chocolate Chip Cookies", 
                     "briefDescription": "not a beautiful dish of spaghetti",
-                    "images": ["bang", "ka", "zooey"],
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "kcurry1.jpg", "curry2.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Minced Beef",
