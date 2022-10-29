@@ -51,12 +51,14 @@ function App() {
     if (mealNumber === 0) {
       mealsInfo = mealsDictionary.starters;
     } else if (mealNumber === 1) {
-      mealsInfo = mealsDictionary.mains;
+      mealsInfo = mealsDictionary.sides;
     } else if (mealNumber === 2) {
-      mealsInfo = mealsDictionary.desserts;
+      mealsInfo = mealsDictionary.mains;
     } else if (mealNumber === 3) {
-      mealsInfo = mealsDictionary.drinks;
+      mealsInfo = mealsDictionary.desserts;
     } else if (mealNumber === 4) {
+      mealsInfo = mealsDictionary.drinks;
+    } else if (mealNumber === 5) {
       mealsInfo = mealsDictionary.baking;
     }
     setMealContent(mealsInfo);
@@ -78,7 +80,7 @@ function App() {
           </h1>
         </header>
         <nav>
-          <ListFull listOfOptions={['Starter','Main','Dessert','Drinks','Baking']} callFetchMealInfo={fetchMealInfo} callSetContentToShow={setContentToShow} />
+          <ListFull listOfOptions={['Starter','Sides','Main','Dessert','Drinks','Baking']} callFetchMealInfo={fetchMealInfo} callSetContentToShow={setContentToShow} />
         </nav>
         <main className={contentToShow}>
           {/* <ContentStructure content={selectedContent} /> */}

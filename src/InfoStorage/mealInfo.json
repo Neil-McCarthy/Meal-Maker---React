@@ -180,6 +180,244 @@
                     ]
                 }
             ],
+            "sides": [
+                {
+                    "title": "Roast Potatoes", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "curry1.jpg", "curry2.jpg"],
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
+                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Garlic Bread", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "curry1.jpg", "curry2.jpg"],
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
+                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
+                    "steps": [
+                        "This is step Wan",
+                        "This is stAp Twwoooo",
+                        "TREEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "something else", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "curry1.jpg", "curry2.jpg"],
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
+                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
+                    "steps": [
+                        "that is step Wan",
+                        "that is stAp Twwoooo",
+                        "TRWWWWWWEEEEEEEE"
+                    ]
+                },
+                {
+                    "title": "Bingo", 
+                    "briefDescription": "not a beautiful dish of spaghetti",
+                    "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
+                    "images": ["curry0.jpg", "curry1.jpg", "curry2.jpg"],
+                    "ingredients": {
+                        "ingredient1": {
+                            "name": "Minced Beef",
+                            "amount": "500g"
+                        },
+                        "ingredient2": {
+                            "name": "Streaky Bacon",
+                            "amount": "3 strips"
+                        },
+                        "ingredient3": {
+                            "name": "White Onion",
+                            "amount": "1"
+                        },
+                        "ingredient4": {
+                            "name": "Red Onion",
+                            "amount": "1"
+                        },
+                        "ingredient5": {
+                            "name": "Red Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient6": {
+                            "name": "Green Pepper",
+                            "amount": "1"
+                        },
+                        "ingredient7": {
+                            "name": "Garlic",
+                            "amount": "3-5 cloves"
+                        },
+                        "ingredient8": {
+                            "name": "Kidney Beans",
+                            "amount": "1 tin"
+                        },
+                        "ingredient9": {
+                            "name": "Chilli Sauce",
+                            "amount": "1 jar"
+                        }
+                    },
+                    "seasoning": [
+                        "salt",
+                        "pepper",
+                        "smokedPaprika",
+                        "chilliPowder",
+                        "cayenne",
+                        "parsley",
+                        "basil",
+                        "sage"
+                    ],
+                    "steps": [
+                        "that is step Wan",
+                        "that is stAp Twwoooo",
+                        "TRWWWWWWEEEEEEEE"
+                    ]
+                }
+            ],
             "mains": [
                 {
                     "title": "Spaghetti Bolognese", 
