@@ -47,14 +47,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -107,14 +107,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -167,14 +167,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "that is step Wan",
@@ -229,14 +229,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -289,14 +289,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -349,14 +349,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "that is step Wan",
@@ -409,14 +409,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "that is step Wan",
@@ -540,14 +540,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "une",
@@ -560,7 +560,7 @@
                     "title": "Curry",
                     "briefDescription": "A flavourful, aromatic dish that can be spiced to suit any palate",
                     "fullDescription": "A handsome and flavourful Indian dish with a powerful and entrancing scent that hangs in the air after cooking.\nThis dish can be prepared in near countless different ways, but each way is sure to have your taste buds dancing in delight. It can be seasoned and spiced to your liking so whether you prefer a mild-mannered meal or a dinner that's blow your head off hot, there's a version out there for each and every palate to enjoy ",
-                    "images": ["curry0.jpg", "curry1.jpg", "curry2.jpg"],
+                    "images": ["curry0.jpg", "curry1.jpg"],
                     "ingredients": {
                         "ingredient1": {
                             "name": "Chicken Fillets",
@@ -600,16 +600,16 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "tumeric",
-                        "cajun",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Tumeric",
+                        "Cajun",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "Slice your chicken fillets vertically down their centre then slice those halves horizontally every half inch, then place your chopped chicken in a mixing bowl",
@@ -675,16 +675,16 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "tumeric",
-                        "cajun",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Tumeric",
+                        "Cajun",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "Slice your chicken fillets vertically down their centre then slice those halves horizontally every half inch, then place your chopped chicken in a mixing bowl",
@@ -752,14 +752,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -812,14 +812,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -872,14 +872,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "that is step Wan",
@@ -934,14 +934,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -994,14 +994,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -1054,14 +1054,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "that is step Wan",
@@ -1116,14 +1116,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -1176,14 +1176,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "This is step Wan",
@@ -1236,14 +1236,14 @@
                         }
                     },
                     "seasoning": [
-                        "salt",
-                        "pepper",
-                        "smokedPaprika",
-                        "chilliPowder",
-                        "cayenne",
-                        "parsley",
-                        "basil",
-                        "sage"
+                        "Salt",
+                        "Pepper",
+                        "Smoked Paprika",
+                        "Chilli Powder",
+                        "Cayenne",
+                        "Parsley",
+                        "Basil",
+                        "Sage"
                     ],
                     "steps": [
                         "that is step Wan",
