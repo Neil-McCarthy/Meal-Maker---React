@@ -23,12 +23,12 @@ function App() {
   const fetchMealInfoOnLoad = useCallback(async() => {
     setIsLoading(true);
     try {
-      const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
+      const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/storageMain.json');
       if (!response.ok) {
         setError("Something went wrong");
       }
       const data = await response.json();
-      mealsDictionary = data[0];
+      mealsDictionary = data[0].meals[0];
       mealsInfo = mealsDictionary.starters;
       setMealContent(mealsInfo);
       setIsLoading(false);
@@ -45,9 +45,10 @@ function App() {
 
   async function fetchMealInfo(mealNumber) {
     setIsLoading(true);
-    const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/meals.json');
+    const response = await fetch('https://react-http-5bad7-default-rtdb.europe-west1.firebasedatabase.app/storageMain.json');
     const data = await response.json();
-    mealsDictionary = data[0];
+    mealsDictionary = data[0].meals[0];
+    console.log(mealsDictionary);
     if (mealNumber === 0) {
       mealsInfo = mealsDictionary.starters;
     } else if (mealNumber === 1) {
